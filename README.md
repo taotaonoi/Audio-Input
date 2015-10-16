@@ -1,7 +1,19 @@
-# Live Audio Input effects
+# Simple Example of Web Audio API and Recorder.js
 
-I whipped this app up to test live audio input, letting the user select a few common tunable effects and see (and hear) the effects.  It's also a good demo of how to build chorus and flanging effects in WebAudio.
+- Clone the repo
 
-Check it out [here](https://webaudiodemos.appspot.com/input/), feel free to fork, submit pull requests, etc.
+```
+$ cd web-audio-example
+$ http-server
+```
 
--Chris
+- Open `http://localhost:8080` in enjoy
+
+- You can use any http-server that you like or install the above using npm
+
+```
+npm install -g http-server
+```
+
+- Detail explanation and live demo here [Record and Export Audio, Video files in browser using Web Audio API with Recorder.js](http://truongtx.me/2014/08/09/record-and-export-audio-video-files-in-browser-using-web-audio-api/)
+
